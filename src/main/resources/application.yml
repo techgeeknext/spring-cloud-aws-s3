@@ -1,0 +1,26 @@
+#Application properties
+server:
+  port: 8081
+
+
+#AWS properties
+cloud:
+  aws:
+    region:
+      static: ap-south-1
+    stack:
+      auto: false
+    credentials:
+      accessKey: AKIA32CIHYHAOT2KHV
+      secretKey: fcmvvq1hcDoSWmHSem6VRc6GdHw2081lUawajH
+
+application:
+  bucket:
+    name: techgeeknextbucket
+
+logging:
+  level:
+    com:
+      amazonaws:
+        util:
+          EC2MetadataUtils: error
